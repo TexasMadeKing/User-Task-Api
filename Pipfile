@@ -11,5 +11,6 @@ marshmallow-sqlalchemy = "*"
 flask-cors = "*"
 flask-bcrypt = "*"
 faker = "*"
+requests = "*"
 
 [dev-packages]

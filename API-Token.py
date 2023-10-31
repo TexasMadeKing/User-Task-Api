@@ -1,9 +1,3 @@
-"# User-Task-api"
-
-pipenv install flask flask-sqlalchemy flask-marshmallow marshmallow-sqlalchemy flask-cors flask-bcrypt
-"# User-Task-Auth-Api" 
-"# User-Task-Auth-Api" 
-
 import requests
 username = 'TexasMadeReaper'
 token = 'd7072e803c88877f40c1525ac1682603131c7d6a'
@@ -19,5 +13,3 @@ if response.status_code == 200:
     print(response.content)
 else:
     print('Got unexpected status code {}: {!r}'.format(response.status_code, response.content))
-
-    d7072e803c88877f40c1525ac1682603131c7d6a
